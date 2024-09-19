@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Fajar Syailendra - Portofolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-item {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Muhammad Fajar Syailendra</h1>
+    <p>Portofolio & Kontak Pribadi</p>
+</header>
+
+<section class="container">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang profesional yang berdedikasi di bidang bisnis kuliner dan distribusi, dengan pengalaman di PT Yadi Ninik Putra Food serta CV YN Go Global.</p>
+</section>
+
+<section class="container">
+    <h2>Portofolio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <h3>Pempek Minie</h3>
+            <p>Outlet pempek yang menghadirkan cita rasa khas Palembang.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>CV YN Go Global</h3>
+            <p>Distributor bumbu masak dan terasi berkualitas.</p>
+        </div>
+        <!-- Tambahkan proyek lainnya di sini -->
+    </div>
+</section>
+
+<section class="container">
+    <h2>Kontak</h2>
+    <p>Email: <a href="mailto:muhammad.fajar@domain.com">muhammad.fajar@domain.com</a></p>
+    <p>Telepon: 0812-3456-7890</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Muhammad Fajar Syailendra. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
